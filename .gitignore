@@ -1,0 +1,6 @@
+*.log
+.idea/
+build/
+dist/
+node_modules/
+.gitkeep

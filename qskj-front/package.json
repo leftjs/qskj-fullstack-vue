@@ -1,0 +1,26 @@
+{
+  "name": "qskj-front",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "private": true,
+  "keywords": [],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "*",
+    "element-ui": "^1.0.6",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.0.2",
+    "vue-router": "^2.1.1",
+    "vue-swipe": "^2.0.0",
+    "vuex": "^2.0.0"
+  },
+  "devDependencies": {
+    "cooking-buble": "*",
+    "cooking-vue2": "*"
+  }
+}
